@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const KEY = 'ebd2755e';
+const KEY = import.meta.env.VITE_OMDB_API_KEY;
 
 export interface Movie {
   imdbID: string;
