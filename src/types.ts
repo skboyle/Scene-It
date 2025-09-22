@@ -10,6 +10,17 @@ export interface Movie {
   actors?: string;
   director?: string;
   genre?: string;
+  language?: string;
+  country?: string;
+  awards?: string;
+  ratings?: { Source: string; Value: string }[];
+  metascore?: string;
+  imdbVotes?: string;
+  type?: string;
+  dvd?: string;
+  boxOffice?: string;
+  production?: string;
+  website?: string;
   userRating?: number;
 }
 
